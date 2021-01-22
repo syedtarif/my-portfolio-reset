@@ -1,3 +1,7 @@
+section{
+    height: 630px;
+    margin-bottom: 20px;
+}
 body{
     font-family: 'Lora', serif;
 }
@@ -5,7 +9,11 @@ h1{
     font-weight: 700;
     font-size: 50px;
 }
-#text{
+h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.p-text{
     padding-top: 80px;
 }
 .link-button{
@@ -22,9 +30,9 @@ h1{
 }
 p{
     font-size: 20px;
+    color: gray;
 }
 .half-one{
-    border: 1px solid red;
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -32,4 +40,50 @@ p{
 }
 .half-one img{
     width: 80%;
+}
+.project{
+    width: 25%;
+    float: left;
+    margin-right: 2%;
+    border: 15px solid white;
+    border-radius: 15px;
+}
+.project img{
+    width: 80%;
+}
+.lastet{
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+.full-lastet{
+    margin-left: 200px;
+}
+.another-full{
+    background-color: rgb(248, 249, 250);
+    height: 800px;
+}
+.white-bg{
+    background-color: white;
+}
+.last{
+    width: 60%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.last-part{
+    height: 300px;
+}
+.connected-part{
+    text-align: center;
+}
+.end{
+    width: 9%;
+    float: left;
+}
+.end-part{
+    padding-left: 680px;
 }
